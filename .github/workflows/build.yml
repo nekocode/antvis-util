@@ -15,5 +15,5 @@ jobs:
           node-version: 16
       - name: ci
         run: |
-          npm install
+          npm install --force
           npm run ci
